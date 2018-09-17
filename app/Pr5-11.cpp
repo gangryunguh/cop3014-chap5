@@ -25,15 +25,8 @@ int main()
    cout << "KPH\tMPH\n";
    cout << "---------------\n";
 
-   // Display the speeds.
-   for (kph = START_KPH; kph <= END_KPH; kph += INCREMENT)
-   {
-      // Calculate mph
-      mph = kph * CONVERSION_FACTOR;
+   // Display the speeds of kph and mph in the increment of 10kph.
 
-      // Display the speeds in kph and mph.
-      cout << kph << "\t" << mph << endl;
 
-   }
    return 0;
 } 

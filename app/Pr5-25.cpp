@@ -1,5 +1,5 @@
 // This program raises the user's number to the powers
-// of 0 through 10.
+// of 0 through 10 - exercise for the statement break.
 #include <iostream>
 #include <cmath>
 using namespace std;
@@ -13,15 +13,12 @@ int main()
    cin >> value;
    cout << "This program will raise " << value;
    cout << " to the powers of 0 through 10.\n";
-   for (int count = 0; count <= 10; count++)
-   {
-      cout << value << " raised to the power of ";
-      cout << count << " is " << pow(value, count);
-      cout << "\nEnter Q to quit or any other key ";
-      cout << "to continue. ";
-      cin >> choice;
-      if (choice == 'Q' || choice == 'q')
-         break;
-   }
+   cout << " But, prompt the user whether he/she wants to continue.\n";
+
+   // Use break statement
+
+
+
+
    return 0;
 }

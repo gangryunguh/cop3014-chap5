@@ -10,16 +10,17 @@ int main()
    string name;
 
    inputFile.open("Friends.txt");
+   if (!inputFile.is_open()) {
+       cout << "Fail to open file \"Friends.txt\"" << endl;
+       return 1;
+   }
+
    cout << "Reading data from the file.\n";
-  
-   inputFile >> name;      // Read name 1 from the file
-   cout << name << endl;   // Display name 1
-  
-   inputFile >> name;      // Read name 2 from the file
-   cout << name << endl;   // Display name 2
-  
-   inputFile >> name;      // Read name 3 from the file
-   cout << name << endl;   // Display name 3
+
+   // Display the names until there is no more name to display
+
+
+
 
    inputFile.close();      // Close the file
    return 0;

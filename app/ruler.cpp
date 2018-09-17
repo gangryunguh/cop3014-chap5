@@ -20,10 +20,9 @@ int main() {
     cout << "i\t ruler\n";
     cout << "---------\n";
 
-    for (i = 1; i < N; i++) {
-        ruler = ruler + to_string(i) + ruler;
-        cout << i << "\t" << ruler << endl;
-    }
+    // Implement the above task!
+    
+
     return 0;
 }
 

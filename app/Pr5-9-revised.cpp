@@ -18,9 +18,8 @@ int main()
    cout << "i\t\tN\n";
    cout << "---------\n";
 
-   for (i = 0; i <= MAX; i++) {
-      cout << i << "\t\t" << N << endl;
-      N = 2 * N;
-   }
+   // Implement a for-loop for the above task
+
+
    return 0;
 }

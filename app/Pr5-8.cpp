@@ -25,8 +25,9 @@ int main()
 
    // Set up numeric output formatting.
    cout << fixed << showpoint << setprecision(2);
-   
-   do
+
+   // prepare do-while loop
+
    {
       // Display the menu.
       cout << "\n\t\tHealth Club Membership Menu\n\n"
@@ -37,37 +38,23 @@ int main()
            << "Enter your choice: ";
       cin >> choice;
       
-      // Validate the menu selection.
-      while (choice < ADULT_CHOICE || choice > QUIT_CHOICE)
-      {
-         cout << "Please enter a valid menu choice: ";
-         cin >> choice;
-      }
+      // 1. Validate the menu selection choice until the user
+      //    type in the valid choice
 
-      // Validate and process the user's choice.
+
+      // 2. Validate and process the user's choice.
       if (choice != QUIT_CHOICE)
       {
          // Get the number of months.
          cout << "For how many months? ";
-         cin >> months;
-         
-         // Respond to the user's menu selection.
-         switch (choice)
-         {
-            case ADULT_CHOICE:
-                charges = months * ADULT;
-                break;
-            case CHILD_CHOICE:
-                charges = months * CHILD;
-                break;
-            case SENIOR_CHOICE:
-                charges = months * SENIOR;
-         }
-         
+
+         // Compute the charges according to the choice and months.
          // Display the monthly charges.
          cout << "The total charges are $"
               << charges << endl;
       }
-   } while (choice != QUIT_CHOICE);
+
+   } // repeat this until choice != 4 (Quit the Program)
+
    return 0;
 }

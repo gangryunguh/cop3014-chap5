@@ -8,13 +8,14 @@ int main()
    ifstream inFile;
    int value1, value2, value3, sum;
 
-   // Open the file.
-   inFile.open("NumericData.txt");
+   // Open the file "NumericData.txt"
 
-   // Read the three numbers from the file.
-   inFile >> value1;
-   inFile >> value2;
-   inFile >> value3;
+
+
+
+   // Read the three integer numbers from the file.
+
+
 
    // Close the file.
    inFile.close();

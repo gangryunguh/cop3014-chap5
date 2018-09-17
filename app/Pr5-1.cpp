@@ -11,22 +11,22 @@ int main()
    cout << "I will now increment num.\n\n";
    
    // Use postfix ++ to increment num.
-   num++;
+
    cout << "Now the variable num is " << num << endl;
    cout << "I will increment num again.\n\n";
 
    // Use prefix ++ to increment num.
-   ++num;
+
    cout << "Now the variable num is " << num << endl;
    cout << "I will now decrement num.\n\n";
    
    // Use postfix -- to decrement num.
-   num--;
+
    cout << "Now the variable num is " << num << endl;
    cout << "I will decrement num again.\n\n";
    
    // Use prefix -- to increment num.
-   --num;
+
    cout << "Now the variable num is " << num << endl;
    return 0;
 }

@@ -10,14 +10,17 @@ int main()
 
    cout << "Now writing data to the file.\n";
 
-   // Write four names to the file.
-   outputFile << "Bach";
-   outputFile << "Beethoven";
-   outputFile << "Mozart";
-   outputFile << "Schubert";
+   // Write four names to the file in a same line
+   //     - "Bach", "Beenthoven", "Mozart", and "Schubert"
+
+
+
 
    // Close the file
-   outputFile.close();
+
+
+
+
    cout << "Done.\n";
    return 0;
 } 

@@ -10,18 +10,11 @@ int main()
 
    // Get the current temperature.
    cout << "Enter the substance's Celsius temperature: ";
-   cin >> temperature;
 
-   // As long as necessary, instruct the technician
-   // to adjust the thermostat.
-   while (temperature > MAX_TEMP)
-   {
-      cout << "The temperature is too high. Turn the\n";
-      cout << "thermostat down and wait 5 minutes.\n";
-      cout << "Then take the Celsius temperature again\n";
-      cout << "and enter it here: ";
-      cin >> temperature;
-   }
+   // Read in temperature until the temperature is <= MAX_TEMP
+
+
+
 
    // Remind the technician to check the temperature
    // again in 15 minutes.

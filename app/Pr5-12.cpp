@@ -14,14 +14,10 @@ int main()
    cin >> days;
    
    // Get the sales for each day and accumulate a total.
-   for (int count = 1; count <= days; count++)
-   {
-      double sales;
-      cout << "Enter the sales for day " << count << ": ";
-      cin >> sales;
-      total += sales;   // Accumulate the running total.
-   }
-   
+
+
+
+
    // Display the total sales.
    cout << fixed << showpoint << setprecision(2);
    cout << "The total sales are $" << total << endl;

@@ -8,15 +8,15 @@ int main()
    int num = 4;
    
    cout << num << endl;   // Displays 4
-   cout << num++ << endl; // Displays 4, then adds 1 to num
+                          // Displays 4, then adds 1 to num
    cout << num << endl;   // Displays 5
-   cout << ++num << endl; // Adds 1 to num, then displays 6
+                          // Adds 1 to num, then displays 6
    cout << endl;          // Displays a blank line
    
    cout << num << endl;   // Displays 6
-   cout << num-- << endl; // Displays 6, then subtracts 1 from num
+                          // Displays 6, then subtracts 1 from num
    cout << num << endl;   // Displays 5
-   cout << --num << endl; // Subtracts 1 from num, then displays 4
+                          // Subtracts 1 from num, then displays 4
       
    return 0;
 }

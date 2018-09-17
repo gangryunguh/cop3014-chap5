@@ -1,5 +1,5 @@
 // This program calculates the charges for DVD rentals.
-// Every third DVD is free.
+// Every third DVD is free - exercise for continue statement
 #include <iostream>
 #include <iomanip>
 using namespace std;
@@ -15,23 +15,12 @@ int main()
    cout << "How many DVDs are being rented? ";
    cin >> numDVDs;
    
-   // Determine the charges.
-   do
-   {
-      if ((dvdCount % 3) == 0)
-      {
-         cout << "DVD #" << dvdCount << " is free!\n";
-         continue;  // Immediately start the next iteration
-      }
-      cout << "Is DVD #" << dvdCount;
-      cout << " a current release? (Y/N) ";
-      cin >> current;
-      if (current == 'Y' || current == 'y')
-         total += 3.50;
-      else
-         total += 2.50;
-   } while (dvdCount++ < numDVDs);
-   
+   // Determine the charges using do-while with the continue statement.
+
+
+
+
+
    // Display the total.
    cout << fixed << showpoint << setprecision(2);
    cout << "The total is $" << total << endl;

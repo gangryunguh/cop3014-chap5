@@ -19,8 +19,9 @@ int main()
    cout << "Number Number Squared\n"
         << "-------------------------\n";
 
-   for (int num = minNumber; num <= maxNumber; num++)
-      cout << num << "\t\t" << (num * num) << endl;
+   // Implement a for-loop for the above task
+
+
 
    return 0;
 } 

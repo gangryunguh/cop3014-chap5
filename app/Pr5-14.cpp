@@ -24,20 +24,16 @@ int main()
    cin >> numTests;
    
    // Determine each student's average score.
-   for (int student = 1; student <= numStudents; student++)
-   {
-      total = 0;      // Initialize the accumulator.
-      for (int test = 1; test <= numTests; test++)
-      {
-         double score;
-         cout << "Enter score " << test << " for ";
-         cout << "student " << student << ": ";
-         cin >> score;
-         total += score;
-      }
-      average = total / numTests;
-      cout << "The average score for student " << student;
-      cout << " is " << average << ".\n\n";
-   }
+   // Implement this using two nested for-loops
+
+
+
+
+
+
+
+
+
+
    return 0;
 }

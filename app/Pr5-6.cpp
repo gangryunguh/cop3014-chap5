@@ -12,10 +12,11 @@ int main()
 
    cout << "Number Number Squared\n";
    cout << "-------------------------\n";
-   while (num <= MAX_NUMBER)
-   {
-      cout << num << "\t\t" << (num * num) << endl;
-      num++; //Increment the counter.
-   }
+
+   // Print the number and the square of the number from 1 .. 10
+
+
+
+
    return 0;
 }

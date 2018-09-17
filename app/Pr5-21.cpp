@@ -13,8 +13,8 @@ int main()
    cout << "For how many days do you have sales? ";
    cin >> numberOfDays;
 
-   // Open a file named Sales.txt.
-   outputFile.open("Sales.txt");
+   // Open a file named "Sales.txt".
+
 
    // Get the sales for each day and write it
    // to the file.
@@ -25,8 +25,10 @@ int main()
            << count << ": ";
       cin >> sales;
       
-      // Write the sales to the file.
-      outputFile << sales << endl;
+      // Write the sales to the file in different line.
+
+
+
    }
 
    // Close the file.

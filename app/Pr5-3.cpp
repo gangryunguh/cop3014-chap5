@@ -6,11 +6,9 @@ int main()
 {
    int number = 0;
 
-   while (number < 5)
-   {
-      cout << "Hello\n";
-      number++;
-   }
+   // print "Hello" in a newline 5 times
+
+
    cout << "That's all!\n";
    return 0;
 }
