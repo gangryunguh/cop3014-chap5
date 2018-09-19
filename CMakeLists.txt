@@ -10,7 +10,7 @@ set(SOURCE_FILES app/Pr5-1.cpp app/Pr5-2.cpp app/Pr5-3.cpp app/Pr5-4.cpp
         app/Pr5-20.cpp app/Pr5-21.cpp app/Pr5-22.cpp app/Pr5-23 app/Pr5-24.cpp
         app/Pr5-25.cpp app/Pr5-26.cpp)
 
-add_executable(Pr5-1.exe app/Pr5-1.cpp app/sqrt.cpp app/ruler.cpp)
+add_executable(Pr5-1.exe app/Pr5-1.cpp)
 add_executable(Pr5-2.exe app/Pr5-2.cpp)
 add_executable(Pr5-3.exe app/Pr5-3.cpp)
 add_executable(Pr5-4.exe app/Pr5-4.cpp)
